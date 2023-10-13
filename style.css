@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;1,400&family=Roboto+Slab:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    /* position fixed en el body se utiliza para que los landing page no tengan scroll, junto con top=0,bottom=0, left=0 y right=0*/
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    min-height: 700px;
+    margin: 0;
+}
+.landing-img {
+    background-image: url('/Assets/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+.landing-img--logo-1{
+    width: 130px;
+    height: 100px;
+}
+.landing-img--logo-2{
+    width: 250px;
+    height: 200px;
+    margin-right: 30px;
+}
+.landing-content{
+   background-color: #E8E8E8;
+}
+.landing-content--title{
+    margin-top: 20px;
+    font-size: 1.4rem;
+    text-align: right;
+    padding-right: 20px;
+}
+.landing-content--title p{
+    width: 300px;
+    line-height: 1.5rem;
+}
+.landing-content--img-container{ 
+    transform: translate(70px,-30px);
+}
+
+.landing-content--subtitle{
+    text-align: center;
+}
+.landing-content--subtitle p{
+    width: 450px;
+    font-size: 1.4rem;
+}
