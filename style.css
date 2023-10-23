@@ -11,7 +11,7 @@ body{
  }
 .main-container{
     width: 100%;
-    min-height: 780px;
+    min-height: 700px;
     margin: 0;
 }
 .landing-img {
@@ -127,4 +127,8 @@ body{
  }
  .point3{
     width: 190px;
+}
+footer p{
+    font-weight: 100;
+    line-height: normal;
 }
